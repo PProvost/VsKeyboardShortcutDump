@@ -4,7 +4,9 @@
 Usage
 -----
 
-After building and installing the VSIX package, simply choose "Dump Keyboard Shortcuts" from the Tools menu in Visual Studio.
+After building and installing the VSIX package, simply choose "Dump Keyboard Shortcuts" from the Tools menu in Visual Studio. 
+
+Every command with a keyboard shortcut will be dumped to the Output Window in a pane called Keyboard Shortcuts. The command name and shortcut(s) are separated by a tab for easy copy-pasting into Excel.
 
 Tested on VS2010 SP1. Not guaranteed to work on other versions but it might.
 
