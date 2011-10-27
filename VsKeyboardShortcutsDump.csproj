@@ -155,11 +155,8 @@
     </VSCTCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Images_32bit.bmp" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Resources\Package.ico" />
-    <Resource Include="Resources\MenuIcon.bmp" />
+    <None Include="Resources\MenuIcon.bmp" />
   </ItemGroup>
   <PropertyGroup>
     <UseCodebase>true</UseCodebase>
