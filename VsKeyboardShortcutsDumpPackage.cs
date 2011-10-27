@@ -33,7 +33,7 @@ namespace PeterProvost.VsKeyboardShortcutsDump
     // in the Help/About dialog of Visual Studio.
     [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)]
     // This attribute is needed to let the shell know that this package exposes some menus.
-    [ProvideMenuResource("Menus.ctmenu", 5)]
+    [ProvideMenuResource("Menus.ctmenu", 6)]
     [Guid(GuidList.guidVsKeyboardShortcutsDumpPkgString)]
     public sealed class VsKeyboardShortcutsDumpPackage : Package
     {
@@ -105,7 +105,7 @@ namespace PeterProvost.VsKeyboardShortcutsDump
                     foreach (var binding in bindingsSafeArray)
                         bindingStrings.Add(binding.ToString());
 
-                    var combinedBindingString = bindingStrings.Aggregate((current, next) => current + ", " + next);
+                    var combinedBindingString = bindingStrings.Aggregate((current, next) => current + "\t" + next);
                     lines.Add(string.Format("{0}\t{1}", cmd.Name, combinedBindingString));
                 }
             }
