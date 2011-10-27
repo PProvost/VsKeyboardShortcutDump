@@ -12,9 +12,11 @@ Credits
 -------
 
 This Visual Studio extension is basically a port to a C# VSPackage from the macro published on MSDN here:
+
 http://msdn.microsoft.com/en-us/library/ms247076.aspx
 
 The menu icon is "script_lighting.png" from FamFamFamSilk 1.3. You can get FamFamFamSilk from here:
+
 http://www.famfamfam.com/lab/icons/silk/
 
 License
